@@ -116,7 +116,7 @@
 
 DATABASE_URL="mysql://root:senha@localhost:3306/aerocode" 
 
----> coloque sua senha (mas mantenha o nome aerocode no banco ali no final por favor).
+---> coloque sua senha no DATABASE_URL (mas mantenha o nome aerocode no banco ali no final por favor).
 
 
 DB_HOST=localhost

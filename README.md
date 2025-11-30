@@ -117,9 +117,13 @@
 DATABASE_URL="mysql://root:senha@localhost:3306/aerocode"
 
 DB_HOST=localhost
+
 DB_PORT=3306
+
 DB_USER=root
+
 DB_PASS=senha
+
 DB_NAME=aerocode
 
 PORT=3001

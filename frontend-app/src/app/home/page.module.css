@@ -1,0 +1,114 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: var(--cor-fundo-principal);
+  font-family: "Montserrat", sans-serif;
+  color: var(--cor-texto);
+}
+
+:root {
+  --cor-fundo-secundaria: #030918;
+  --cor-fundo-principal: #011d3b;
+  --cor-texto: #FFFFFF;
+}
+
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--cor-fundo-secundaria);
+  padding: 8px 40px; 
+  height: 60px; 
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 60px; 
+  width: auto;
+}
+
+.retornoLogin {
+  color: var(--cor-texto);
+  text-decoration: none;
+  font-size: 13px;
+  letter-spacing: 1px;
+  transition: opacity 0.3s;
+}
+
+.retornoLogin:hover {
+  opacity: 0.7;
+}
+
+
+.principal {
+  position: relative;
+  height: calc(100vh - 60px);
+  background-image: url("/images/latam.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0; 
+  background: rgba(1, 29, 59, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.textoCentral {
+  z-index: 2;
+  margin: 0;
+}
+
+.titulo {
+  font-size: 42px; 
+  font-weight: 50;
+  letter-spacing: 3px;
+  margin-bottom: 12px;
+  color: #bfbaba;
+}
+
+.marca {
+  display: block;
+  font-weight: 500;
+  font-size: 36px; 
+  color: var(--cor-texto);
+  letter-spacing: 3px;
+}
+
+.subtitulo {
+  font-size: 18px; 
+  margin-bottom: 50px;
+  color: #d4d4d4;
+}
+
+
+.botao {
+  background-color: var(--cor-fundo-principal);
+  border: none;
+  border-radius: 6px;
+  color: var(--cor-texto);
+  font-size: 16px; 
+  text-transform: uppercase;
+  padding: 16px 80px; 
+  letter-spacing: 1.2px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.botao:hover {
+  background-color: var(--cor-fundo-secundaria);
+  transform: scale(1.05);
+}

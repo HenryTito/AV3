@@ -1,0 +1,169 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  color: #ffffff;
+}
+:root {
+  --cor-primaria: #0052cc;
+  --cor-fundo-secundaria: #030918;
+  --cor-fundo-principal: #011d3b;
+  --cor-texto: #FFFFFF;
+}
+
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--cor-fundo-principal);;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+.aside {
+  flex: 0.6;
+  background-color: #030918;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgPlaceholder {
+ position: relative;
+ object-fit: contain;
+  width: 600px;           
+  height: auto;           
+  position: relative;
+  top: -150px;             
+  left: -20px; 
+  
+  
+}
+
+
+.main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginBox {
+  border: solid #FFFF 0.5;
+  background-color: #35353500;
+  border-radius: 8px;
+  padding: 40px 60px;
+  width: 350px;
+  height: 400px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.loginh {
+  font-size: 21px;
+  margin-bottom: 24px;
+  color: #ffffff;
+  font-weight: 100;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.inputGroup {
+  position: relative;
+  background-color: var(--cor-fundo-principal);
+}
+
+.input {
+  width: 100%;
+  padding: 10px 40px 10px 10px; 
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  outline: none;
+  box-sizing: border-box;
+  background-color: #00000000;
+  border: solid 0.3px #ffffff;
+  color: #ffffff;
+}
+
+
+.eyeButton {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.eyeButton .icon {
+  display: block;
+  width: 18px;
+  height: 18px;
+  color: #ffffff; 
+}
+
+
+.eyeButton:hover .icon,
+.eyeButton:focus .icon {
+  color: #333;
+  outline: none;
+}
+
+
+.submitButton {
+  border: solid 0.3px #ffffff;
+  margin-top: 50px;
+  background-color: #1d1d1d00;
+  color: white;
+  
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  transition: background 0.3s;
+}
+
+.submitButton:hover {
+  background-color: var(--cor-fundo-principal);
+}
+
+
+
+.selectCargo {
+  width: 100%;
+  padding: 10px 10px;
+  border: solid 0.3px #ffffff;
+  border-radius: 4px;
+  font-size: 12px;
+  outline: none;
+  box-sizing: border-box;
+  background-color: #33333300;
+  color: #ffffff;
+  appearance: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  font-family: "Montserrat", sans-serif;
+}
+
+.selectCargo:hover {
+  background-color: var(--cor-fundo-secundaria);
+  border-color: #ffffffcc;
+}
+
+.selectCargo option {
+  background-color: #011d3b;
+  color: #ffffff;
+}

@@ -1,0 +1,68 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal {
+  background-color: #0b1a33;
+  padding: 30px;
+  border-radius: 8px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  width: 420px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.inputGroup input,
+.inputGroup select {
+  padding: 10px;
+  border: 1px solid #1e3a5f;
+  border-radius: 6px;
+  background: #112240;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+.btnGroup {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.btnSalvar {
+  background-color: #0e2f56;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btnSalvar:hover {
+  background-color: #133d74;
+}
+
+.btnCancelar {
+  background-color: #444;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}

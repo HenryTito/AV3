@@ -114,7 +114,10 @@
 
 ### SÓ PARA GARANTIR QUE O EXEMPLO DO .ENV SEJA SEGUIDO, VOU COLOCAR UM NO README
 
-DATABASE_URL="mysql://root:senha@localhost:3306/aerocode"               ---> coloque sua senha (mas mantenha o nome aerocode no banco ali no final por favor).
+DATABASE_URL="mysql://root:senha@localhost:3306/aerocode" 
+
+---> coloque sua senha (mas mantenha o nome aerocode no banco ali no final por favor).
+
 
 DB_HOST=localhost
 

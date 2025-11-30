@@ -112,6 +112,23 @@
 
 ### O usuário é autenticado e liberado para o sistema.
 
+### SÓ PARA GARANTIR QUE O EXEMPLO DO .ENV SEJA SEGUIDO, VOU COLOCAR UM NO README
+
+DATABASE_URL="mysql://root:senha@localhost:3306/aerocode"
+
+DB_HOST=localhost
+DB_PORT=3306
+DB_USER=root
+DB_PASS=senha
+DB_NAME=aerocode
+
+PORT=3001
+
+
+
+
+
+
 ## ✔️ Requisitos
 
 ### Node.js atualizado (LTS recomendado)

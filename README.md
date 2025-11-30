@@ -86,7 +86,7 @@
 ## 💻 Inicializar o Frontend
 ## 8️⃣ Rodar o Next.js
 
-### Agora entre na pasta do frontend:
+### Agora entre na pasta do frontend em outro terminal:
 
 ### cd frontend-app
 ### npm run dev

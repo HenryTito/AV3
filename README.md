@@ -96,6 +96,12 @@
 
 ### http://localhost:3000
 
+
+### CASO QUEIRA TIRAR O BOTÃO DO NEXT, CLIQUE NELE <br>
+### -> PREFERENCES -> HIDE DEV TOOLS
+
+
+
 ## 🔐 Fluxo de Login
 
 ### O usuário acessa o frontend.
@@ -131,7 +137,7 @@ DB_NAME=aerocode
 
 PORT=3001
 
-
+## VALE RESSALTAR QUE NA ABA DE ETAPAS, COLOQUE A DATA E O HORARIO NO CAMPO!
 
 
 

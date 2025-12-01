@@ -61,6 +61,7 @@ export default function ModalCadastrarTeste({ close, onTesteCadastrado }) {
         <div className={styles.inputGroup}>
           <select name="tipo" value={form.tipo} onChange={handleChange} required>
             <option value="">Selecione o Tipo do Teste</option>
+            <option value="ELETRICO">Elétrico</option>
             <option value="HIDRAULICO">Hidráulico</option>
             <option value="AERODINAMICO">Aerodinâmico</option>
           </select>

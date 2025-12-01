@@ -151,7 +151,9 @@ PORT=3001
 ### NPM (vem junto com Node)
 
 
-### RESUMO DOS COMANDOS
+
+
+# RESUMO DOS COMANDOS
 
 ## cd frontend-app
 

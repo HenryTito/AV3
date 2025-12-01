@@ -149,3 +149,41 @@ PORT=3001
 ### MySQL instalado e em execução
 
 ### NPM (vem junto com Node)
+
+
+### RESUMO DOS COMANDOS
+
+## cd frontend-app
+
+## npm install
+
+## volte a pasta do back
+
+## cd backend
+
+## npm install
+
+## criar o .env na raiz do backend e configurar a url igual o .env example
+
+## criar o banco de dados no mysql com o nome: aerocode
+## create database aerocode;
+
+## dentro de backend, gerar as migrations:
+
+## npx prisma migrate dev
+
+## dentro de backend, rodar a seed para gerar o login inicial:
+
+## npm run seed
+
+## agora basta rodar o back e o front
+
+## cd backend 
+## npm run dev
+
+
+## abrir em outro terminal e rodar o front
+
+## cd frontend-app
+
+## npm run dev

@@ -96,6 +96,12 @@
 
 ### http://localhost:3000
 
+
+### CASO QUEIRA TIRAR O BOTÃO DO NEXT, CLIQUE NELE <br>
+### -> PREFERENCES -> HIDE DEV TOOLS
+
+
+
 ## 🔐 Fluxo de Login
 
 ### O usuário acessa o frontend.
